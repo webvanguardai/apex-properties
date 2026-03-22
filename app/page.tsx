@@ -130,7 +130,7 @@ const testimonials = [
     role: 'Tech Executive, Singapore',
     text: 'As a first-time Dubai buyer, I was nervous. The Apex team walked me through every detail, from mortgage options to golden visa eligibility. Couldn\'t have done it without them.',
     rating: 5,
-    img: 'https://images.unsplash.com/photo-1494790108755-2616b612b5c4?w=100&h=100&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&q=80',
   },
   {
     name: 'James Harrington',
