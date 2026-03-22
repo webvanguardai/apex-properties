@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --navy: #0A1628;
+  --navy-mid: #112040;
+  --navy-light: #1A3060;
+  --gold: #C9A96E;
+  --gold-light: #E8D5A3;
+  --white: #FFFFFF;
+  --off-white: #F8F6F2;
+  --gray: #8A9BB5;
+  --gray-light: #E8EDF5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--off-white);
+  color: var(--navy);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 3px;
+}
