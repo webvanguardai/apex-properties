@@ -3,21 +3,19 @@ import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Apex Properties Dubai | Luxury Real Estate Agency',
-  description: 'Dubai\'s premier luxury real estate agency. Buy, sell, and invest in prime properties across Palm Jumeirah, Downtown Dubai, Dubai Marina, and Emirates Hills. Expert advisors, exclusive listings.',
+  title: 'Apex Properties Dubai | Luxury Real Estate — Buy, Sell & Invest',
+  description: 'Find Dubai\'s most desirable properties. Apartments, villas and penthouses in Palm Jumeirah, DIFC, Downtown Dubai & Marina. Expert agents, instant viewings.',
   keywords: [
     'luxury real estate Dubai',
     'property for sale Dubai',
-    'Dubai property agency',
-    'Palm Jumeirah villas',
-    'Downtown Dubai apartments',
-    'Dubai Marina properties',
+    'Dubai apartments',
+    'Palm Jumeirah property',
+    'DIFC apartments',
+    'Downtown Dubai real estate',
+    'Dubai Marina apartments',
     'buy property Dubai',
-    'Dubai real estate investment',
-    'Emirates Hills villas',
+    'Dubai real estate agency',
     'off-plan properties Dubai',
-    'luxury apartments Dubai',
-    'real estate agent Dubai',
   ],
   metadataBase: new URL('https://apex-properties.vercel.app'),
   alternates: {
@@ -26,23 +24,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://apex-properties.vercel.app',
-    title: 'Apex Properties Dubai | Luxury Real Estate Agency',
-    description: 'Dubai\'s premier luxury real estate agency. Exclusive listings on Palm Jumeirah, Downtown Dubai & Emirates Hills.',
+    title: 'Apex Properties Dubai | Luxury Real Estate',
+    description: 'Dubai\'s most desirable properties. Instant viewings, expert agents.',
     siteName: 'Apex Properties Dubai',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=630&fit=crop&q=80',
+        url: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&h=630&fit=crop&q=80',
         width: 1200,
         height: 630,
-        alt: 'Apex Properties Dubai - Luxury Real Estate',
+        alt: 'Apex Properties Dubai',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Apex Properties Dubai | Luxury Real Estate Agency',
-    description: 'Dubai\'s premier luxury real estate agency. Exclusive listings, expert advisors.',
-    images: ['https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=630&fit=crop&q=80'],
+    title: 'Apex Properties Dubai | Luxury Real Estate',
+    description: 'Dubai\'s most desirable properties. Find yours today.',
+    images: ['https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&h=630&fit=crop&q=80'],
   },
   robots: {
     index: true,
@@ -55,10 +53,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-  },
 }
 
 export default function RootLayout({
@@ -68,7 +62,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>
+      <body className="bg-[#0A0A0A] text-white antialiased">
         {children}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"
