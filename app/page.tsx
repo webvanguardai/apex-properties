@@ -124,10 +124,10 @@ const allProperties = [
 ]
 
 const stats = [
-  { value: 'AED 2.1B+', label: 'in transactions' },
-  { value: '340+', label: 'properties sold' },
-  { value: '12 years', label: 'in Dubai' },
-  { value: '98%', label: 'client satisfaction' },
+  { value: 'AED 2.1B+', label: 'in closed transactions' },
+  { value: '340+', label: 'properties sold since 2013' },
+  { value: '8–12%', label: 'avg. rental yield p.a.' },
+  { value: '72h', label: 'avg. time to first offer' },
 ]
 
 // ─── NAV ─────────────────────────────────────────────────────────────────────
@@ -207,7 +207,7 @@ function Hero() {
           className="inline-flex items-center gap-2 bg-[#3B82F6]/10 border border-[#3B82F6]/30 rounded-full px-4 py-1.5 mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-[#3B82F6] animate-pulse" />
-          <span className="text-[#3B82F6] text-xs font-semibold tracking-widest uppercase">Dubai&apos;s #1 Luxury Real Estate</span>
+          <span className="text-[#3B82F6] text-xs font-semibold tracking-widest uppercase">AED 2.1B+ in Closed Transactions · Since 2013</span>
         </motion.div>
 
         <motion.h1
@@ -216,11 +216,11 @@ function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.92] tracking-tight mb-6"
         >
-          Dubai&apos;s Most<br />
+          The Address<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3B82F6] to-[#60A5FA]">
-            Desirable
+            Defines
           </span>
-          <br />Properties.
+          <br />The Value.
         </motion.h1>
 
         <motion.p
@@ -229,7 +229,7 @@ function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-white/50 text-lg md:text-xl max-w-lg mb-10"
         >
-          From Palm Jumeirah penthouses to DIFC residences — find your perfect property in 3 clicks.
+          Palm Jumeirah · DIFC · Emirates Hills. Handpicked residences with 8–12% annual rental yields. Every listing reviewed by our senior advisors.
         </motion.p>
 
         <motion.div
@@ -251,7 +251,7 @@ function Hero() {
             href="#contact"
             className="inline-flex items-center justify-center gap-2 bg-white/5 border border-white/10 text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-white/10 transition-colors duration-200"
           >
-            Book a Viewing
+            Schedule a Private Viewing
           </a>
         </motion.div>
 
@@ -346,9 +346,9 @@ function PropertyListings() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
-            Browse Properties
+            Current Listings
           </h2>
-          <p className="text-white/40">{allProperties.length} exclusive listings in Dubai</p>
+          <p className="text-white/40">{allProperties.length} handpicked residences · Updated weekly</p>
         </motion.div>
 
         {/* Filters */}
@@ -487,7 +487,7 @@ function PropertyListings() {
                         onClick={() => setInquiredId(prop.id)}
                         className="w-full py-2.5 rounded-lg bg-[#3B82F6]/10 border border-[#3B82F6]/30 text-[#3B82F6] text-sm font-semibold hover:bg-[#3B82F6] hover:text-white transition-all duration-200"
                       >
-                        Inquire Now
+                        Request Private Viewing
                       </button>
                     )}
                   </div>
@@ -630,9 +630,9 @@ function Contact() {
           className="mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-3">
-            Find Your Property
+            Schedule a Private Viewing
           </h2>
-          <p className="text-white/40 text-lg">Tell us what you&apos;re looking for. We&apos;ll handle the rest.</p>
+          <p className="text-white/40 text-lg">Share your criteria. A senior advisor responds within 2 hours.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -727,7 +727,7 @@ function Contact() {
                   type="submit"
                   className="w-full bg-[#3B82F6] text-white py-3.5 rounded-lg font-semibold hover:bg-[#2563EB] transition-colors duration-200"
                 >
-                  Submit Inquiry
+                  Request a Private Viewing
                 </button>
               </form>
             )}
@@ -791,7 +791,7 @@ function Footer() {
               </div>
               <span className="font-bold text-white text-lg tracking-wide">APEX PROPERTIES</span>
             </div>
-            <p className="text-white/30 text-sm max-w-xs">Dubai&apos;s most trusted luxury real estate agency since 2013.</p>
+            <p className="text-white/30 text-sm max-w-xs">AED 2.1B+ in closed transactions. Senior advisors only — no junior brokers.</p>
           </div>
 
           {/* Links */}
