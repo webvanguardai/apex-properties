@@ -26,7 +26,7 @@ const featuredProperties = [
     sqm: '312 m²',
     beds: 3,
     baths: 4,
-    img: 'https://images.unsplash.com/photo-1614965655698-cf67e2e5e9d3?w=800&h=600&fit=crop&q=85',
+    img: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&q=85',
     tag: 'New Listing',
   },
   {
@@ -67,7 +67,7 @@ const allProperties = [
     sqm: '312 m²',
     beds: 3,
     baths: 4,
-    img: 'https://images.unsplash.com/photo-1614965655698-cf67e2e5e9d3?w=600&h=450&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=450&fit=crop&q=80',
   },
   {
     id: 3,
