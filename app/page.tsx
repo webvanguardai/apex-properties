@@ -137,12 +137,12 @@ function Nav() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-10 h-18 flex items-center justify-between" style={{ height: '72px' }}>
         <a href="#" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 rounded-md bg-[#3B82F6] flex items-center justify-center">
+          <div className="w-9 h-9 rounded-md bg-[#C9A96E] flex items-center justify-center">
             <span className="font-bold text-white text-base leading-none">A</span>
           </div>
           <div>
             <span className="font-bold text-white text-lg tracking-wide">APEX</span>
-            <span className="block text-[#3B82F6] text-[9px] tracking-[0.35em] uppercase -mt-0.5">Properties Dubai</span>
+            <span className="block text-[#C9A96E] text-[9px] tracking-[0.35em] uppercase -mt-0.5">Properties Dubai</span>
           </div>
         </a>
 
@@ -166,7 +166,7 @@ function Nav() {
           href="https://wa.me/971585324519"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-2 bg-[#3B82F6] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#2563EB] transition-colors duration-200"
+          className="hidden md:flex items-center gap-2 bg-[#C9A96E] text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-[#A8845A] transition-colors duration-200"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
@@ -196,7 +196,7 @@ function Hero() {
       </div>
 
       {/* Blue glow */}
-      <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-[#3B82F6]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-[#C9A96E]/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 py-20">
         {/* Badge */}
@@ -204,10 +204,10 @@ function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 bg-[#3B82F6]/10 border border-[#3B82F6]/30 rounded-full px-4 py-1.5 mb-8"
+          className="inline-flex items-center gap-2 bg-[#C9A96E]/10 border border-[#C9A96E]/30 rounded-full px-4 py-1.5 mb-8"
         >
-          <span className="w-2 h-2 rounded-full bg-[#3B82F6] animate-pulse" />
-          <span className="text-[#3B82F6] text-xs font-semibold tracking-widest uppercase">AED 2.1B+ in Closed Transactions · Since 2013</span>
+          <span className="w-2 h-2 rounded-full bg-[#C9A96E] animate-pulse" />
+          <span className="text-[#C9A96E] text-xs font-semibold tracking-widest uppercase">AED 2.1B+ in Closed Transactions · Since 2013</span>
         </motion.div>
 
         <motion.h1
@@ -217,7 +217,7 @@ function Hero() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.92] tracking-tight mb-6"
         >
           The Address<br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#3B82F6] to-[#60A5FA]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A96E] to-[#E0C49A]">
             Defines
           </span>
           <br />The Value.
@@ -240,7 +240,7 @@ function Hero() {
         >
           <a
             href="#listings"
-            className="inline-flex items-center justify-center gap-2 bg-[#3B82F6] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#2563EB] transition-colors duration-200"
+            className="inline-flex items-center justify-center gap-2 bg-[#C9A96E] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#A8845A] transition-colors duration-200"
           >
             View All Properties
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -264,7 +264,7 @@ function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 + i * 0.1 }}
-              className="group relative overflow-hidden rounded-xl bg-white/5 border border-white/10 hover:border-[#3B82F6]/50 transition-all duration-300 cursor-pointer"
+              className="group relative overflow-hidden rounded-xl bg-white/5 border border-white/10 hover:border-[#C9A96E]/50 transition-all duration-300 cursor-pointer"
             >
               <div className="relative h-48 overflow-hidden">
                 <Image
@@ -274,7 +274,7 @@ function Hero() {
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] to-transparent" />
-                <span className="absolute top-3 left-3 bg-[#3B82F6] text-white text-xs font-bold px-2.5 py-1 rounded-md">
+                <span className="absolute top-3 left-3 bg-[#C9A96E] text-white text-xs font-bold px-2.5 py-1 rounded-md">
                   {prop.tag}
                 </span>
               </div>
@@ -286,7 +286,7 @@ function Hero() {
                   {prop.location}
                 </p>
                 <h3 className="text-white font-semibold mb-2">{prop.title}</h3>
-                <p className="text-[#3B82F6] font-bold text-lg">{prop.price}</p>
+                <p className="text-[#C9A96E] font-bold text-lg">{prop.price}</p>
                 <div className="flex items-center gap-3 mt-2 text-white/40 text-xs">
                   <span>{prop.beds} beds</span>
                   <span>·</span>
@@ -362,7 +362,7 @@ function PropertyListings() {
                 onClick={() => setActiveType(t)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   activeType === t
-                    ? 'bg-[#3B82F6] text-white'
+                    ? 'bg-[#C9A96E] text-white'
                     : 'bg-white/5 text-white/50 hover:bg-white/10 hover:text-white border border-white/10'
                 }`}
               >
@@ -382,7 +382,7 @@ function PropertyListings() {
                 onClick={() => setActiveZone(z)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   activeZone === z
-                    ? 'bg-[#3B82F6] text-white'
+                    ? 'bg-[#C9A96E] text-white'
                     : 'bg-white/5 text-white/50 hover:bg-white/10 hover:text-white border border-white/10'
                 }`}
               >
@@ -399,7 +399,7 @@ function PropertyListings() {
             <select
               value={activePriceRange}
               onChange={(e) => setActivePriceRange(e.target.value as PriceRange)}
-              className="bg-white/5 border border-white/10 text-white text-sm rounded-lg px-4 py-2 outline-none focus:border-[#3B82F6] transition-colors"
+              className="bg-white/5 border border-white/10 text-white text-sm rounded-lg px-4 py-2 outline-none focus:border-[#C9A96E] transition-colors"
             >
               {priceRanges.map((r) => (
                 <option key={r.value} value={r.value} className="bg-[#111]">
@@ -437,7 +437,7 @@ function PropertyListings() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.07 }}
-                  className="group bg-[#111] rounded-2xl overflow-hidden border border-white/5 hover:border-[#3B82F6]/40 transition-all duration-300"
+                  className="group bg-[#111] rounded-2xl overflow-hidden border border-white/5 hover:border-[#C9A96E]/40 transition-all duration-300"
                 >
                   <div className="relative h-52 overflow-hidden">
                     <Image
@@ -460,7 +460,7 @@ function PropertyListings() {
                       {prop.location}
                     </p>
                     <h3 className="text-white font-semibold text-base mb-2">{prop.title}</h3>
-                    <p className="text-[#3B82F6] font-bold text-xl mb-3">{prop.price}</p>
+                    <p className="text-[#C9A96E] font-bold text-xl mb-3">{prop.price}</p>
 
                     <div className="flex items-center gap-4 text-white/40 text-xs mb-5">
                       <span className="flex items-center gap-1">
@@ -485,7 +485,7 @@ function PropertyListings() {
                     ) : (
                       <button
                         onClick={() => setInquiredId(prop.id)}
-                        className="w-full py-2.5 rounded-lg bg-[#3B82F6]/10 border border-[#3B82F6]/30 text-[#3B82F6] text-sm font-semibold hover:bg-[#3B82F6] hover:text-white transition-all duration-200"
+                        className="w-full py-2.5 rounded-lg bg-[#C9A96E]/10 border border-[#C9A96E]/30 text-[#C9A96E] text-sm font-semibold hover:bg-[#C9A96E] hover:text-white transition-all duration-200"
                       >
                         Request Private Viewing
                       </button>
@@ -523,12 +523,12 @@ function FeaturedDevelopment() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="inline-block bg-[#3B82F6] text-white text-xs font-bold px-3 py-1.5 rounded-md mb-6 uppercase tracking-widest">
+            <span className="inline-block bg-[#C9A96E] text-white text-xs font-bold px-3 py-1.5 rounded-md mb-6 uppercase tracking-widest">
               ★ Featured Development
             </span>
             <h2 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
               Iconic Tower<br />
-              <span className="text-[#3B82F6]">DIFC</span>
+              <span className="text-[#C9A96E]">DIFC</span>
             </h2>
             <p className="text-white/50 text-base max-w-md mb-8">
               Redefining the Dubai skyline. 52 floors of curated residences with panoramic views of Burj Khalifa and the Arabian Gulf.
@@ -645,8 +645,8 @@ function Contact() {
           >
             {submitted ? (
               <div className="h-full flex flex-col items-center justify-center text-center py-20 bg-[#111] rounded-2xl border border-white/5">
-                <div className="w-16 h-16 rounded-full bg-[#3B82F6]/10 border border-[#3B82F6]/30 flex items-center justify-center mb-6">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" strokeWidth="2.5">
+                <div className="w-16 h-16 rounded-full bg-[#C9A96E]/10 border border-[#C9A96E]/30 flex items-center justify-center mb-6">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A96E" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </div>
@@ -664,7 +664,7 @@ function Contact() {
                       value={form.name}
                       onChange={(e) => setForm({ ...form, name: e.target.value })}
                       placeholder="Your full name"
-                      className="w-full bg-white/5 border border-white/10 focus:border-[#3B82F6] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors placeholder-white/20"
+                      className="w-full bg-white/5 border border-white/10 focus:border-[#C9A96E] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors placeholder-white/20"
                     />
                   </div>
                   <div>
@@ -675,7 +675,7 @@ function Contact() {
                       value={form.phone}
                       onChange={(e) => setForm({ ...form, phone: e.target.value })}
                       placeholder="+971 50 XXX XXXX"
-                      className="w-full bg-white/5 border border-white/10 focus:border-[#3B82F6] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors placeholder-white/20"
+                      className="w-full bg-white/5 border border-white/10 focus:border-[#C9A96E] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors placeholder-white/20"
                     />
                   </div>
                 </div>
@@ -687,7 +687,7 @@ function Contact() {
                       required
                       value={form.budget}
                       onChange={(e) => setForm({ ...form, budget: e.target.value })}
-                      className="w-full bg-white/5 border border-white/10 focus:border-[#3B82F6] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors appearance-none"
+                      className="w-full bg-white/5 border border-white/10 focus:border-[#C9A96E] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors appearance-none"
                     >
                       <option value="" className="bg-[#111] text-white/40">Select budget</option>
                       <option value="under-1m" className="bg-[#111]">Under AED 1M</option>
@@ -701,7 +701,7 @@ function Contact() {
                     <select
                       value={form.propertyType}
                       onChange={(e) => setForm({ ...form, propertyType: e.target.value })}
-                      className="w-full bg-white/5 border border-white/10 focus:border-[#3B82F6] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors appearance-none"
+                      className="w-full bg-white/5 border border-white/10 focus:border-[#C9A96E] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors appearance-none"
                     >
                       <option value="" className="bg-[#111] text-white/40">Any type</option>
                       <option value="apartment" className="bg-[#111]">Apartment</option>
@@ -719,13 +719,13 @@ function Contact() {
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     placeholder="Any specific requirements? (location, views, amenities...)"
-                    className="w-full bg-white/5 border border-white/10 focus:border-[#3B82F6] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors resize-none placeholder-white/20"
+                    className="w-full bg-white/5 border border-white/10 focus:border-[#C9A96E] rounded-lg px-4 py-3 text-white text-sm outline-none transition-colors resize-none placeholder-white/20"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-[#3B82F6] text-white py-3.5 rounded-lg font-semibold hover:bg-[#2563EB] transition-colors duration-200"
+                  className="w-full bg-[#C9A96E] text-white py-3.5 rounded-lg font-semibold hover:bg-[#A8845A] transition-colors duration-200"
                 >
                   Request a Private Viewing
                 </button>
@@ -786,7 +786,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-8 h-8 rounded-md bg-[#3B82F6] flex items-center justify-center">
+              <div className="w-8 h-8 rounded-md bg-[#C9A96E] flex items-center justify-center">
                 <span className="font-bold text-white text-sm">A</span>
               </div>
               <span className="font-bold text-white text-lg tracking-wide">APEX PROPERTIES</span>
@@ -818,7 +818,7 @@ function Footer() {
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-sm">© 2026 Apex Properties Dubai. All rights reserved.</p>
           <div className="flex items-center gap-3">
-            <span className="bg-[#3B82F6]/10 border border-[#3B82F6]/30 text-[#3B82F6] text-xs font-mono px-3 py-1.5 rounded-md">
+            <span className="bg-[#C9A96E]/10 border border-[#C9A96E]/30 text-[#C9A96E] text-xs font-mono px-3 py-1.5 rounded-md">
               RERA License: 12345678
             </span>
             <span className="text-white/20 text-xs">DED: 987654</span>

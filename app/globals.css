@@ -6,8 +6,8 @@
 
 :root {
   --bg: #0A0A0A;
-  --blue: #3B82F6;
-  --blue-dark: #2563EB;
+  --blue: #C9A96E;
+  --blue-dark: #A8845A;
   --white: #FFFFFF;
 }
 
@@ -37,11 +37,11 @@ body {
   background: #0D0D0D;
 }
 ::-webkit-scrollbar-thumb {
-  background: #3B82F6;
+  background: #C9A96E;
   border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563EB;
+  background: #A8845A;
 }
 
 /* Smooth anchor scrolling offset for fixed nav */
